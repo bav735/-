@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2015-03-09T15:31:22Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8010</WindowHeight>
+  <WindowWidth>14805</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Гиперссылка">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s19" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#AAAAAA"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#AAAAAA"/>
+   </Borders>
+   <Interior ss:Color="#F2F2F2" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист1">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s18" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="71.25">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Нефункциональные языки программирования с функциональными особенностями</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)"
+     x:HRefScreenTip="Си (язык программирования)"><Data ss:Type="String">&#160;C (в форме указателей на функции)</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/C%2B%2B"
+     x:HRefScreenTip="C++"><Data ss:Type="String">C++</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/CSharp"
+     x:HRefScreenTip="CSharp"><Data ss:Type="String">C#</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/%D0%AD%D0%B9%D1%84%D0%B5%D0%BB%D1%8C_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)"
+     x:HRefScreenTip="Эйфель (язык программирования)"><Data ss:Type="String">Eiffel</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Erlang"
+     x:HRefScreenTip="Erlang"><Data ss:Type="String">Erlang</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/F_Sharp"
+     x:HRefScreenTip="F Sharp"><Data ss:Type="String">F#</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Groovy"
+     x:HRefScreenTip="Groovy"><Data ss:Type="String">Groovy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Java</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">JavaScript</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Common Lisp</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Nemerle"
+     x:HRefScreenTip="Nemerle"><Data ss:Type="String">Nemerle</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Perl"
+     x:HRefScreenTip="Perl"><Data ss:Type="String">Perl</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PHP</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Python</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Ruby"
+     x:HRefScreenTip="Ruby"><Data ss:Type="String">Ruby</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Scala_(%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)"
+     x:HRefScreenTip="Scala (язык программирования)"><Data ss:Type="String">Scala</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/Smalltalk"
+     x:HRefScreenTip="Smalltalk"><Data ss:Type="String">Smalltalk</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/VB.NET"
+     x:HRefScreenTip="VB.NET"><Data ss:Type="String">VB.NET</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/OCaml"
+     x:HRefScreenTip="OCaml"><Data ss:Type="String">OCaml</Data></Cell>
+    <Cell ss:StyleID="s19" ss:HRef="https://ru.wikipedia.org/wiki/PureBasic"
+     x:HRefScreenTip="PureBasic"><Data ss:Type="String">PureBasic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25">
+    <Cell><Data ss:Type="String">Чисто не функциональные языки программирования    </Data></Cell>
+    <Cell><Data ss:Type="String">Assembler</Data></Cell>
+    <Cell><Data ss:Type="String">Pascal</Data></Cell>
+    <Cell><Data ss:Type="String">Фортран</Data></Cell>
+    <Cell><Data ss:Type="String">Ада</Data></Cell>
+    <Cell><Data ss:Type="String">Basic</Data></Cell>
+    <Cell><Data ss:Type="String">Brainfuck</Data></Cell>
+    <Cell><Data ss:Type="String">Алгол</Data></Cell>
+    <Cell><Data ss:Type="String">Forth</Data></Cell>
+    <Cell><Data ss:Type="String">Оберон</Data></Cell>
+    <Cell><Data ss:Type="String">Sh</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Лист2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Лист3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
