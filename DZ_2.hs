@@ -10,7 +10,7 @@ fibb n = case n of
 			2 -> 1
 			_ -> fibb(n-1)+fibb(n-2)
 acc::(Integer, Integer) -> Integer
-acc(m, n) = if (m < 0) || (n < 0)
+acc(m, n) = if (m < 0) || (n < 0)	
 				then -1
 				else if m == 0
 						then n+1
