@@ -8,7 +8,7 @@ size list = case list of
         Nil -> 0
         Head a tail -> 1 + (size tail)
 
---преобрзование списка по двум функциям
+--преобрзование списка по двум функциям   
 dMap :: List a b -> (a -> c) -> (b -> d) -> List c d
 dMap list f1 f2 = case list of
         Nil -> Nil
