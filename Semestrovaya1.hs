@@ -1,6 +1,6 @@
 module Semestrovaya1 where --Semestrovaya1.hs  
 
---variable representation
+--variable
 type Var a = a
 
 --term representation
