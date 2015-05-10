@@ -1,12 +1,11 @@
-{-# LANGUAGE GADTs, KindSignatures, DataKinds, FlexibleInstances, StandaloneDeriving,
-NoMonomorphismRestriction, FlexibleContexts, ViewPatterns, OverlappingInstances, ScopedTypeVariables #-}
 module Semestrovaya2 where --Semestrovaya2.hs
 
 --type representation
 data Type = 
      T String
    | Arr Type Type
-   deriving Eq 
+   deriving Eq
+--shows type
 instance Show (Type) where
    show (T s) = s
    show (Arr t1 t2) = 
@@ -20,6 +19,7 @@ data Term =
    | Abs String Type Term Type
    | Invalid String
    deriving Eq
+--shows term
 instance Show (Term) where
    show (te0) = if isValidTerm te0 then case te0 of  
       Var s t -> s ++ ":" ++ show t
@@ -29,7 +29,7 @@ instance Show (Term) where
       Invalid err -> err
       _ -> "Invalid term!"
    
-      
+--term validation function      
 isValidTerm :: Term -> Bool
 isValidTerm te0 = case te0 of
    Var s t -> True
@@ -45,6 +45,7 @@ isValidTerm te0 = case te0 of
       _ -> False
    _ -> False
  
+--get term type function
 getTermType :: Term -> Type
 getTermType te0 = case te0 of      
    Var y t -> t
@@ -77,4 +78,6 @@ eval te0 = if isValidTerm te0
 ty::Type
 ty = Arr (T "Cat") (T "Dog") --type
 te::Term
+te = Abs "x" (T "Cat") (Var "y" (T "Dog")) (T "Pig") --check invalid
 tred::Term
+tred = App (Abs "x" (T "Note") (Var "x" (T "Book")) (Arr (T "Note") (T "Book"))) (Var "y" (T "Note")) (T "Book") --check reduce
